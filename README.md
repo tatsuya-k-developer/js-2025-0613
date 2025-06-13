@@ -43,7 +43,7 @@ Sass（SCSS）によるスタイル管理や、画像・JS・CSSのディレク�
 
 1. このフォルダをローカルに保存（ZIP解凍 or Gitクローン）  
    ```bash
-   git clone 
+   git clone git@github.com:tatsuya-k-developer/js-2025-0613.git
    ```
 2. `index.html` をダブルクリック or ブラウザで開く
 3. スライドショーが動くことを確認！
