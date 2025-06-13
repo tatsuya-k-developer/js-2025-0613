@@ -1,0 +1,33 @@
+@use "variables" as *;
+
+
+/*------------------------------------------------------
+    slideshow format (スライドショー)
+------------------------------------------------------*/
+
+.slideshow-container {
+    position: relative;
+    width: 600px;
+    margin: auto;
+}
+
+.slide {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+
+    display: none; /* 最初はすべて非表示 */
+    
+    &.active {
+        display: block; /* activeクラスがある画像だけ表示 */
+    }
+}
+
+button {
+    margin: 20px 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+  
